@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>kaz.dev</title>
+    <style>
+      html,
+      body {
+        height: 100vh;
+        width: 100vw;
+        background-image: linear-gradient(-225deg, #fffeff 0%, #d7fffe 100%);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: min(calc(8px + 1vw), 16px);
+      }
+
+      main {
+        color: black;
+      }
+
+      .icon {
+        width: clamp(80px, 10vw, 200px);
+      }
+
+      .links {
+        display: grid;
+        row-gap: 4px;
+      }
+
+      a:link,
+      a:visited,
+      a:hover,
+      a:active {
+        color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <img src="./icon.webp" alt="icon" class="icon" />
+      <h1>@kobakazu0429</h1>
+      <h2>🚧 Blog, Portfolio are under construction</h2>
+
+      <div class="links">
+        <a href="https://twitter.com/kobakazu0429">Twitter</a>
+        <a href="https://github.com/kobakazu0429">GitHub</a>
+        <a href="mailto:contact@kaz.dev">contact@kaz.dev</a>
+      </div>
+
+      <div class="messages">
+        <ul>
+          <li>job request/offer → contact me via Twitter DM or Email</li>
+        </ul>
+      </div>
+
+      <span class="last-updated">last updated: 2021-07-11</span>
+    </main>
+  </body>
+</html>
